@@ -1,0 +1,174 @@
+* {
+  margin: 0px;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url('./image/Rectangle 77.png') center/cover no-repeat;
+  background-size: 400% 400%;
+  animation: gradientAnimation 130s ease infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+.react--app--container{
+  width: 550px;
+  height: 705px;
+  margin: 10px auto;
+  background-color: #E8F3ED;
+  overflow-y: auto;
+  box-shadow: 0px 1px 14px 0px rgba(128, 128, 128, 0.353);
+
+}
+::-webkit-scrollbar{
+  display: none;
+}
+.nav--cont--bar{
+  /* position: sticky; */
+  top: 0px;
+}
+/* .app--container {
+} */
+
+/* navbar css style  */
+.navbar--container {
+  align-items: center;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  background-color: #21616B;
+}
+
+.middle--container {
+  display: inline-block;
+  display: flex;
+}
+
+.nav--image {
+  height: 30px;
+  margin-right: 9px;
+  filter: invert(1);
+}
+.nav--p {
+  font-size: 30px;
+  margin-top: 2px;
+  font-weight: bold;
+  color: white;
+}
+
+/* place js css styling */
+
+.place--container{
+  width: 471px;
+  height: 168px;
+  border-radius: 9px;
+  margin: 30px auto;
+  display: flex;
+  background: linear-gradient(to right, #9af3e4, #ffffff);
+  box-shadow: 1px 1px 10px 0px rgba(128, 128, 128, 0.466);
+}
+/* .left--container{
+
+} */
+.left--image{
+  width: 126px;
+  height: 168px;
+  border-radius: 9px;
+}
+
+.right--container{
+  margin: 6px 17px;
+  margin-right: 0px;
+  padding-top: 9px;
+
+}
+.first--location{
+  display: flex;
+}
+
+.location--image{
+  height: 13px;
+  margin-top: 3px;
+}
+.city--name{
+  font-size: 15px;
+  color: black;
+  margin-left: 3px;
+  margin-bottom: 2px;
+}
+.map--link{
+  font-size: 10px;
+  margin-left: 14px;
+  color: gray;
+  margin-top: 3px;
+}
+
+.mane--h1{
+  font-size: 25px;
+  color: rgb(53, 52, 52);
+  margin: 0px 0px 9px 1px;
+}
+.content--part h4{
+  font-size: 15px;
+  margin-bottom: 7px;
+  color: rgb(53, 52, 52);
+
+}
+.content--part p{
+  font-size: 12px;
+  color: rgb(53, 52, 52);
+  margin-right: 7px;
+}
+
+
+/* Footer.css */
+
+.footer {
+  background-color:  #21616B;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0px -5px 15px rgb(0,0,0,0.1);
+}
+
+.social-icons {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 20px;
+  margin-right: 50px;
+  text-decoration: none;
+  
+}
+
+.social-icons a:hover {
+  color: rgb(73, 234, 199); /* Change color on hover (for Twitter) */
+}
+
+
+
+
